@@ -6,7 +6,7 @@ class StateInAction extends Component {
         this.state = {
             text: "State in Action"
         }
-
+        
         setTimeout(() => { //must use arrow function here in order to not rebind 'this'. regular function() definition will not work
             this.setState({
                 text: "State changed!"
@@ -21,4 +21,4 @@ class StateInAction extends Component {
     }
 }
 
-export default StateInAction;
+export default StateInAction; 
